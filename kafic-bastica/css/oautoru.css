@@ -1,12 +1,12 @@
 
 @font-face {
-    font-family: 'gothambold';
-    src: url(../assets/font/gothambold.ttf);
-    }
-    @font-face {
-        font-family: 'genty';
-        src: url(../assets/font/genty.ttf);
-        }
+    font-family: 'GothamBold';
+    src: url(../assets/font/GothamBold.ttf);
+}
+@font-face {
+    font-family: 'Genty';
+    src: url(../assets/font/Genty.ttf);
+}
     
 
 *{
@@ -34,7 +34,7 @@ header{
         left: 155px;
        color: #d4caaf;
        z-index: 3;
-       font-family: gothambold;
+       font-family: "GothamBold";
        font-style: italic;
 }
 
@@ -49,7 +49,7 @@ header{
 .linkovi ul li{
     display: inline;
     list-style-type: none;
-    font-family: gothambold;
+    font-family: "GothamBold";
     z-index: 3;
 }
 
@@ -60,7 +60,7 @@ li a{
     text-transform: uppercase;
     text-decoration: none;
     color: #86986b;
-    font-family: gothambold;
+    font-family: "GothamBold";
     padding-left: 20px;
 }
 #upaljen{
@@ -89,7 +89,7 @@ li a{
     left: 42%;
     top: 130px;
     font-size: 60px;
-font-family: genty;
+font-family: "Genty";
 color: #f69a69;
 }
 #da{
@@ -126,7 +126,7 @@ color: #f69a69;
     color: #e76f51;
     margin-bottom: 20px;
     font-size: 25px;
-    font-family: gothambold;
+    font-family: "GothamBold";
   }
   
   #about p {
@@ -137,7 +137,7 @@ color: #f69a69;
     word-wrap: break-word;
     font-size: 20px;
     text-align: justify;
-    font-family: gothambold;
+    font-family: "GothamBold";
   }
   
   #social {
@@ -200,7 +200,7 @@ footer{
         bottom: 10px;
         left: 670px;
         font-size: 15px;
-        font-family: gothambold;
+        font-family: "GothamBold";
 
     }
     .linkfoot {
@@ -219,7 +219,7 @@ footer{
         left: 175px;
         width: 170px;
         word-wrap: break-word;
-        font-family: gothambold;
+        font-family: "GothamBold";
         color: #d4caaf;
         text-align: left;
         font-size: 14px;

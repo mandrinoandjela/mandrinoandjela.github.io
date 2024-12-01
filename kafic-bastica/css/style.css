@@ -5,11 +5,11 @@
 @font-face {
     font-family: 'GothamBold';
     src: url(../assets/font/GothamBold.ttf);
-    }
-    @font-face {
-        font-family: 'Genty';
-        src: url(../assets/font/Genty.ttf);
-        }
+}
+@font-face {
+    font-family: 'Genty';
+    src: url(../assets/font/Genty.ttf);
+}
 
 *{
     margin: 0px;
@@ -101,7 +101,7 @@ box-shadow: 0px 20px 20px #00000069;
     left: 1010px;
     top: 250px;
     font-size: 40px;
-font-family: genty;
+font-family: "Genty";
 color: #e4d3a3;
 z-index: 4;
 }
@@ -179,7 +179,7 @@ z-index: 3;
         left: 285px;
         top: 57px;
         font-size: 60px;
-    font-family: genty;
+    font-family: "Genty";
     color: #f69a69;
     }
     .paragraf{
