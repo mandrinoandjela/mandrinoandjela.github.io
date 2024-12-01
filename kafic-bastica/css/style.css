@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: 'GothamBold';
-    src: url(../assets/font/gothambold.ttf);
+    src: url(../assets/font/GothamBold.ttf);
     }
     @font-face {
         font-family: 'Genty';
-        src: url(../assets/font/genty.ttf);
+        src: url(../assets/font/Genty.ttf);
         }
 
 *{
