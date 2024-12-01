@@ -95,6 +95,16 @@ z-index: 3;
 box-shadow: 0px 20px 20px #00000069;
 
 }
+@keyframes slideDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); 
+        opacity: 1;
+    }
+}
 
 #naslov{
     position: absolute;
@@ -104,6 +114,7 @@ box-shadow: 0px 20px 20px #00000069;
 font-family: "Genty";
 color: #e4d3a3;
 z-index: 4;
+animation: slideDown 1s ease-out;
 }
 #nesto{
     height: 500px;
@@ -140,9 +151,22 @@ z-index: 4;
     transition: background-color 0.3s;
     z-index: 4;
 }
+@keyframes buttonHover {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .button:hover{
     background-color: #edc4ae;
+    animation: buttonHover 0.3s ease-in-out;
 }
+
 #da{
     
     height: 1380px;
@@ -167,22 +191,24 @@ box-shadow: 0px 20px 20px #00000069;
     width: 450px;
    right: 150px;
     top: 955px;
- background-image: linear-gradient(rgba(24, 49, 30, 0.262),rgba(32, 65, 40, 0.322) ), url(../assets/img/kafic.jpg);
- background-size: cover;
+    background-image: linear-gradient(rgba(24, 49, 30, 0.262),rgba(32, 65, 40, 0.322) ), url(../assets/img/kafic.jpg);
+    background-size: cover;
     position: absolute;
     border-radius: 10%;
-z-index: 3;
+    z-index: 3;
 }
 
-    #naslov2{
-        position: absolute;
-        left: 285px;
-        top: 57px;
-        font-size: 60px;
+#naslov2{
+     position: absolute;
+     left: 285px;
+     top: 57px;
+     font-size: 60px;
     font-family: "Genty";
     color: #f69a69;
-    }
-    .paragraf{
+   
+}
+
+.paragraf{
         position: absolute;
         width: 500px;
         word-wrap: break-word;
@@ -192,7 +218,7 @@ z-index: 3;
         top: 155px;
         color: #d4caaf;
         z-index: 4;
-    }
+}
 
 
 
