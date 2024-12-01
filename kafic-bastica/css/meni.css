@@ -1,0 +1,268 @@
+
+@font-face {
+    font-family: 'gothambold';
+    src: url(../assets/font/gothambold.ttf);
+    }
+    @font-face {
+        font-family: 'genty';
+        src: url(../assets/font/genty.ttf);
+        }
+    
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    }
+header{
+    position: relative;
+    height: 230px;
+    }
+
+#logo img{
+    height: 110px;
+	position: absolute;
+    left: 25px;
+    top: 10px;
+    z-index: 3;
+}
+
+#slogan{
+        position: absolute;
+        top: 50px;
+        left: 155px;
+       color: #d4caaf;
+       z-index: 3;
+       font-family: gothambold;
+       font-style: italic;
+}
+
+ .linkovi{
+        position: absolute;
+       right: 50px;
+       top: 55px;
+        z-index: 3;
+            
+}
+
+.linkovi ul li{
+    display: inline;
+    list-style-type: none;
+    font-family: gothambold;
+    z-index: 3;
+}
+
+li a:hover{
+   color: #d4caaf;
+}
+li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #86986b;
+    font-family: gothambold;
+    padding-left: 20px;
+}
+#upaljen{
+    color:#d4caaf
+}
+
+
+#baner{
+    position: absolute;
+    top: 0px;
+        width: 100%;
+        height: 230px;
+        background-image: linear-gradient(rgba(40, 79, 49, 0.95),rgba(40, 79, 49, 0.50) ), url(../assets/img/pozadina.jpg);
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+    }
+#pozadina{
+    position: relative;
+    height: 1450px;
+    background-color: #d4caaf;
+}
+#back{
+    position: fixed;  
+    bottom: 20px;     
+    right: 20px;       
+    background-color: #86986b; 
+    color: white;     
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;  
+    
+    font-size: 16px;   
+    text-decoration: none; 
+    display: none;     
+    z-index: 1000;  
+    display: inline;   
+}
+
+#back:hover {
+    background-color: #284f31; 
+}
+
+i.fa.fa-angles-up{
+    color: #d4caaf;
+    font-size: 30px;
+    padding-left: 11px;
+    line-height: 50px;
+}
+#naslov{
+    position: absolute;
+    left: 45%;
+    top: 130px;
+    font-size: 60px;
+font-family: genty;
+color: #f69a69;
+}
+#zeleniblok{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: #86986b;
+}
+.paragraf{
+    position: absolute;
+    width: 890px;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: gothambold;
+    top: 20px;
+    left: 300px;
+    color: #d4caaf;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    position: absolute;
+    top: 80px;
+    font-family: gothambold;
+    color: #09120b;
+}
+
+#tabela th, td {
+
+    padding: 8px 12px;
+    text-align: center;
+    
+}
+
+ th {
+    background-color: #86986b;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+    
+}
+.novo{
+    color: #da6323;
+}
+
+#tabela tr:hover {
+    background-color: #f0b595;
+}
+#drugideo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.dodaci{
+    background-color: #afc8895c;
+}
+
+#tipovikafe{
+position: absolute;
+top: 580px;
+width: 100%;
+}
+#tabela2 {
+    width: 100%;
+    border-collapse: collapse;
+    position: absolute;
+    top: 1130px;
+    font-family: gothambold;
+    color: #09120b;
+}
+#tabela2 th, td {
+
+    padding: 8px 12px;
+    text-align: center;
+}
+.linija{
+    border-left: 1px solid #18271a;
+}
+
+footer{
+    position: relative;
+    height: 230px;
+    background-image: linear-gradient(rgba(40, 79, 49, 0.30),rgba(40, 79, 49, 0.95) ), url(../assets/img/pozadina.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#mreze {
+    position: absolute;
+    text-align: center;
+   height: 50px;
+   position: absolute;
+   bottom: 20px;
+   left: 700px;
+  }
+  #mreze a{
+    text-decoration: none;
+    word-spacing: 20px;
+  }
+  #mreze i {
+    font-size: 25px;
+    color: #86986b;
+
+    }
+    #mreze i:hover {
+        color: #d4caaf;
+    }
+    #logo1 img{
+        height: 110px;
+        position: absolute;
+        left: 40px;
+        top: 60px;
+        z-index: 3;
+    }
+    #copy {
+        color: #86986b;
+        position: absolute;
+        bottom: 10px;
+        left: 670px;
+        font-size: 15px;
+        font-family: gothambold;
+
+    }
+    .linkfoot {
+       top: 15px;
+      right: 40px;
+       
+    }
+    .linkfoot ul li{
+        display: block;
+        text-align: right;
+        line-height: 27px;
+    }
+    #info{
+        position: absolute;
+        top: 65px;
+        left: 175px;
+        width: 170px;
+        word-wrap: break-word;
+        font-family: gothambold;
+        color: #d4caaf;
+        text-align: left;
+        font-size: 14px;
+        line-height: 25px;
+    }
