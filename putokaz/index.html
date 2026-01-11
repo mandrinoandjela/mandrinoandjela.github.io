@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Putokaz | Turistička agencija</title>
+    <meta name="description" content="Putokaz - turistička agencija sa ponudama putovanja i kontakt formom.">
+    <meta name="keywords" content="turisticka agencija, putovanja, Grcka, Italija, Turska">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO / HEADER (FULL WIDTH) -->
+<header id="hero" class="hero">
+
+    <nav class="navbar">
+        <a href="index.html" id="logo">Putokaz</a>
+
+        <ul class="nav-links">
+    <li><a href="destinacije.html">Destinacije</a></li>
+    <li><a href="#about">O agenciji</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+    <li><a href="autor.html">O autoru</a></li>
+</ul>
+    </nav>
+
+    <div class="hero-content">
+        <h1>Istraži svet sa nama</h1>
+        <p>Najlepše destinacije • Sigurna putovanja • Nezaboravna iskustva</p>
+        <a href="destinacije.html" class="hero-btn">Pogledaj ponude</a>
+    </div>
+
+</header>
+
+<!-- ================= PONUDE ================= -->
+<section>
+    <div class="container">
+
+        <h2 class="section-title">Popularne destinacije</h2>
+
+        <div class="cards-grid" id="cardsGrid"></div>
+
+    </div>
+</section>
+
+
+<!-- ================= O NAMA ================= -->
+<section id="about">
+    <div class="container">
+
+        <div class="about-card">
+            <div class="about-text">
+                <h2>O agenciji</h2>
+                <p>
+                    Putokaz je turistička agencija sa više od 10 godina iskustva.
+                    Naš cilj je da svako putovanje bude bez stresa, sigurno i
+                    prilagođeno vašim željama.
+                </p>
+                <p>
+                    Sarađujemo sa proverenim partnerima i nudimo destinacije širom sveta.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img src="/assets/img/onama.png" alt="Dream Travel">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= RECENZIJE ================= -->
+<section id="reviews"> 
+    <div class="container"> 
+        <h2>Utisci klijenata</h2>
+
+        <div class="reviews"> 
+            <div class="review"> 
+                <img src="/assets/img/ana.jpg"> 
+                <p>„Savršena organizacija i odlični hoteli!“</p> 
+                <span>Ana, Beograd</span> 
+            </div> 
+
+            <div class="review"> 
+                <img src="/assets/img/marko.jpg"> 
+                <p>„Putovanje bez ikakvog stresa.“</p> 
+                <span>Marko, Novi Sad</span> 
+            </div> 
+
+            <div class="review"> 
+                <img src="/assets/img/jelena.jpg"> 
+                <p>„Sigurno putujem ponovo sa njima.“</p> 
+                <span>Jelena, Niš</span> 
+            </div> 
+        </div> 
+    </div> 
+</section>
+<!-- ================= KONTAKT ================= -->
+<section id="kontakt">
+    <div class="container">
+
+        <h2 class="section-title">Kontaktirajte nas</h2>
+
+        <div class="contact-wrapper">
+
+            <!-- FORMA -->
+            <form class="contact-form submitted" id="contactForm" method="post" action="#">
+
+            <div class="form-group">
+                <label for="fullName">Ime i prezime</label>
+                <input type="text" name="fullName" id="fullName">
+                <small class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email adresa</label>
+                <input type="email" name="email" id="email">
+                <small class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="destination">Destinacija</label>
+                <select id="destination"  name="destination">
+                    <option value="">Izaberite destinaciju</option>
+                    <option value="Grčka">Grčka</option>
+                    <option value="Italija">Italija</option>
+                    <option value="Turska">Turska</option>
+                    <option value="Egipat">Egipat</option>
+                </select>
+                <small class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Poruka</label>
+                <textarea id="message" name="message"></textarea>
+                <small class="error"></small>
+            </div>
+
+            <button type="submit">Pošalji upit</button>
+        </form>
+
+
+
+
+            <!-- MAPA -->
+            <div class="map-box">
+                <iframe 
+                    src="https://www.google.com/maps?q=Visoka%20ICT%20%C5%A0kola%20Beograd&output=embed"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="container">
+
+        <nav class="footer-nav">
+            <a href="#hero">Početna</a>
+            <a href="destinacije.html">Putovanja</a>
+            <a href="#about">O nama</a>
+            <a href="#kontakt">Kontakt</a>
+            <a href="autor.html">O autoru</a>
+        </nav>
+
+        <p>© 2026 Putoka</p>
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
